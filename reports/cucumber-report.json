@@ -1,0 +1,444 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-create,-edit,-delete-functionality;create-user,-edit-the-existing-user-and-delete-user-succesfully",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Create user, edit the existing user and delete user succesfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1755136599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6101663900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "steps\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 609947299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I search and select \"Forma Gym\" workspace",
+            "match": {
+              "location": "steps\\User.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6032168199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I move to \"Users\" tab",
+            "match": {
+              "location": "steps\\User.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1974553400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I create a test user",
+            "match": {
+              "location": "steps\\User.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5323627599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I should see the notification that \"User created successfully!\"",
+            "match": {
+              "location": "steps\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1897094100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I select the Edit action for the test user",
+            "match": {
+              "location": "steps\\User.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 761703600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Edit a random field and save",
+            "match": {
+              "location": "steps\\User.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294002499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see the notification that \"User updated successfully!\"",
+            "match": {
+              "location": "steps\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 377656699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I select the Delete action for the updated test user",
+            "match": {
+              "location": "steps\\User.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1219271899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I confirm to delete the user",
+            "match": {
+              "location": "steps\\User.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64856800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the notification that \"User deleted successfully!\"",
+            "match": {
+              "location": "steps\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3690599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35166199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-create,-edit,-delete-functionality;create-user-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Create user with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1814747600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6125557000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "steps\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600268700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I search and select \"Forma Gym\" workspace",
+            "match": {
+              "location": "steps\\User.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5951236399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I move to \"Users\" tab",
+            "match": {
+              "location": "steps\\User.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1955788199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I create a user with invalid credentials",
+            "match": {
+              "location": "steps\\User.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6427083899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I should see the notification that \"Failed to create user!\"",
+            "match": {
+              "location": "steps\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 377235400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40262000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-create,-edit,-delete-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User create, edit, delete functionality",
+    "tags": [],
+    "uri": "features\\User.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;successful-login",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 172132799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1468014800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "steps\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 529522800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the home page",
+            "match": {
+              "location": "steps\\login.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5699299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32897600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-failed",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login failed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168281699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1442488399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I login with invalid credentials",
+            "match": {
+              "location": "steps\\login.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 452116300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the notification that \"Wrong e-mail or password!\"",
+            "match": {
+              "location": "steps\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 884775700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32854099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

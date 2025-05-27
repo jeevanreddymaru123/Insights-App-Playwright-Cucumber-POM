@@ -1,0 +1,11 @@
+
+      .screenshot-link {
+        color: #dc3545;
+        text-decoration: underline;
+        margin-left: 8px;
+        font-weight: normal;
+      }
+      .screenshot-link:hover {
+        color: #a71d2a;
+      }
+    
