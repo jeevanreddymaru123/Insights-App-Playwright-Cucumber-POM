@@ -6,6 +6,7 @@
     "report": "ts-node report/report-generator.ts"
   },
   "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
     "@faker-js/faker": "^9.8.0",
     "@playwright/test": "^1.40.0",
     "@types/cucumber": "^6.0.1",
@@ -14,9 +15,8 @@
     "open": "^10.1.2",
     "path": "^0.12.7",
     "playwright": "^1.52.0",
+    "playwright-slack-report": "^1.1.93",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3",
-    "@cucumber/cucumber": "^11.3.0"
-  
+    "typescript": "^5.8.3"
   }
 }

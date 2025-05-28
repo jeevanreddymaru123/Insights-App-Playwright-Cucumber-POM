@@ -18,5 +18,16 @@ module.exports = {
     worldParameters: {
       screenshotsDir: 'screenshots/'
     }
-  }
+  },
+
+   reporter: [
+    [
+      "./node_modules/playwright-slack-report/dist/src/SlackReporter.js",
+      {
+        channels: ["pw-tests", "ci"], // provide one or more Slack channels
+        sendResults: "always", // "always" , "on-failure", "off"
+      },
+    ],
+    ["dot"], // other reporters
+  ],
 };
